@@ -1,6 +1,6 @@
 # googletestはtest/libに移すべき
 
-set(GtestRoot ${PROJECT_SOURCE_DIR}/lib/googletest)
+set(GtestRoot ${PROJECT_SOURCE_DIR}/test/lib/googletest)
 link_directories(${GtestRoot}/_build/googlemock)
 link_libraries(gmock gmock_main)
 
