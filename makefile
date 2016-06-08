@@ -14,5 +14,6 @@ setup:
 	git clone https://github.com/datsuns/googletest.git lib/googletest
 	make -C lib/googletest
 	gem install filewatcher
+	gem install colorize
 
 
